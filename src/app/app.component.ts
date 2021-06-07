@@ -191,8 +191,8 @@ export class AppComponent {
 				`Emplea un template adquirido especificamente como base para el proyecto y a partir del cual se han personalizado
 				los estilos de la aplicación haciendo uso de HTML5, Ionic3 y CSS3.`
 			],
-			'No',
-			'No'
+			'applink',
+			'https://play.google.com/store/apps/details?id=com.getronics.fms.android.release'
 		)/*,
 		new Proyecto(
 			'p5',

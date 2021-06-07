@@ -20,12 +20,20 @@
   </a>
 </div>
 
-<div class="link-container" *ngIf="this.proyecto.tipolink==='desarrollo'">
-  <p><i>Este proyecto se encuentra acutalmente en desarrollo</i></p>
+<div class="link-container" *ngIf="this.proyecto.tipolink==='applink'">
+  <a class="link applink" href="{{this.proyecto.enlace}}" target="_blank">
+    Enlace a la app
+  </a>
 </div>
 
 <div class="link-container" *ngIf="this.proyecto.tipolink==='defaultlink'">
-  <p>Enlace al portal</p>
+  <a class="link defaultlink" href="{{this.proyecto.enlace}}" target="_blank">
+    Enlace al portal
+  </a>
+</div>
+
+<div class="link-container" *ngIf="this.proyecto.tipolink==='desarrollo'">
+  <p><i>Este proyecto se encuentra acutalmente en desarrollo</i></p>
 </div>
 
 <div class="link-container" *ngIf="this.proyecto.tipolink==='No'">
