@@ -61,14 +61,21 @@ export class AppComponent {
 		new Trayectoria(
 		  'Bilbomática',
 		  'Programador',
-		  '2019-Actualidad',
-		  `<p>Me he incorporado a la parte front del proyecto <span class='font-weight-bold'>Eccairs 2</span> para la
-		  <span class='font-weight-bold'>Agencia Europea de Seguridad Aérea</span> (EASA) que está siendo desarrollado
-		  con Angular 8 y Java Spring. El cometido de esta aplicación es la recopilación de incidencias que puedan darse
+		  '2019-2021',
+		  `<p>Trabajé en la parte front del proyecto <span class='font-weight-bold'>Eccairs 2</span> para la
+		  <span class='font-weight-bold'>Agencia Europea de Seguridad Aérea</span> (EASA). Este proyecto se desarrrolló
+		  con Angular 8/10 y Java Spring. El cometido de esta aplicación es la recopilación de incidencias que puedan darse
 		  en la aviación y la gestión de la taxonomía empleada en los informes que recogen estas incidencias así como otras
 		  gestiones comunes en este tipo de aplicaciones como roles, usuarios, etc.</p>
-		  <p>Cabe destacar también que en este proyecto se ha utilizado la metodología de trabajo SCRUM. </p>`,
+		  <p>Cabe destacar también que en este proyecto se utilizó la metodología de trabajo SCRUM. </p>`,
 		  './assets/images/logos/bilbomatica.png'
+		),
+		new Trayectoria(
+		  'Tecnalia',
+		  'Programador',
+		  '2021-Actualidad',
+		  `<i>Proximamente</i>`,
+		  './assets/images/logos/tecnalia.png'
 		)
 	];
 
@@ -234,16 +241,21 @@ export class AppComponent {
 			recogen estas incidencias así como otras gestiones comunes en este tipo de aplicaciones como roles, usuarios, etc.`,
 			[
 				'./assets/images/proyectos/eccairs1.png',
+				'./assets/images/proyectos/eccairs2.png',
+				'./assets/images/proyectos/eccairs3.png',
+				'./assets/images/proyectos/eccairs4.png',
+				'./assets/images/proyectos/eccairs5.png',
+				'./assets/images/proyectos/eccairs6.png',
 			],
 			0,
 			[
-				'Parte front implementada con Angular 8, Ngrx y Ngrx/data',
+				'Parte front implementada con Angular 8/10, Ngrx y Ngrx/data',
 				'Uso de librerías de apoyo como Bootstrap y Kendo',
-				'Uso de oras tecnologías como Spring, Elastic o MySQL',
+				'Uso de otras tecnologías como Spring, Elastic, MongoDB o MySQL',
 				'Metodología SCRUM'
 			],
-			'No',
-			'No'
+			'defaultlink',
+			'https://e2.aviationreporting.eu/reporting'
 		)
 	];
 

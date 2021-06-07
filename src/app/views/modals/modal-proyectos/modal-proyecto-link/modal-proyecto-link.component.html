@@ -24,6 +24,10 @@
   <p><i>Este proyecto se encuentra acutalmente en desarrollo</i></p>
 </div>
 
+<div class="link-container" *ngIf="this.proyecto.tipolink==='defaultlink'">
+  <p>Enlace al portal</p>
+</div>
+
 <div class="link-container" *ngIf="this.proyecto.tipolink==='No'">
   <p><i>Enlaces no disponibles.</i></p>
 </div>
