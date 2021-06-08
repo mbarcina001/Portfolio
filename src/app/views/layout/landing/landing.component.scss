@@ -52,7 +52,7 @@
 		flex-direction: column;
 		//position: absolute;
 		
-		#titulo{
+		#title{
 			align-items: center;
 			margin-top: 5%;
 			margin-left: 5%;
@@ -65,7 +65,7 @@
 				font-family: 'BellaDonna';
 				margin-bottom: 0;
 				font-size: 5rem;
-				.coma{
+				.comma{
 					font-family: 'WeekendontheMountains';
 					margin-left: -8px;
 				}
@@ -90,11 +90,11 @@
 			}
 		}
 		
-		#descargacurriculum{
+		#curriculumdownload{
 			margin-top: 5%;
 			z-index:1;
 		
-			.descargacurriculum {
+			.curriculumdownload {
 				background-color: lightgrey;
 				color: black;
 				width: 300px;
@@ -120,7 +120,7 @@
 			}
 		}	
 		
-		#trayectoria{	
+		#career{	
 			z-index:1;
 			
 			p{
@@ -146,7 +146,7 @@
 		}
 	}
 	
-	.modal-warning-construccion {
+	.modal-warning-construction {
 		display: block;
 		position: fixed;
 		z-index: 1;
@@ -182,7 +182,7 @@
 				color: red;
 			}
 			
-			.texto{
+			.text{
 				width: 60%;
 				position: absolute;
 				right: 10%;
@@ -205,27 +205,27 @@
 /* RESPONSIVE */
 
 @media (max-width: 1644px) {
-  /*.modal-warning-construccion .content .texto {
+  /*.modal-warning-construction .content .text {
 		top:10% !important;
 	}*/
 }
 
 
 @media (max-width: 1440px) {
-	#titulo h1{
+	#title h1{
 		font-size: 4.5rem !important;
 	}
 }
 
 @media (max-width: 1200px) {
-	#titulo h1{
+	#title h1{
 		font-size: 4rem !important;
 	}
 }
 
 /* TABLETS */
 @media (max-width: 991px) {
-	/*.modal-warning-construccion .content .texto {
+	/*.modal-warning-construction .content .text {
 		font-size:40px !important;
 	}*/
 	
@@ -236,7 +236,7 @@
 
 /* SMALL DEVICES */
 @media (max-width: 767px) {
-	#titulo{
+	#title{
 		font-size: 2.5rem !important;
 	}
 }
@@ -251,14 +251,14 @@
 		width:90% !important;
 	}
 	
-	.modal-warning-construccion .content .texto {
+	.modal-warning-construction .content .text {
 		top:15% !important;
 		font-size:30px !important;
 	}
 }
 
 @media (max-width: 360px) {
-	.modal-warning-construccion .content{
+	.modal-warning-construction .content{
 		.icono {
 			top: 35% !important;
 			font-size: 70px !important;
@@ -272,39 +272,39 @@
 }
 
 @media (min-height: 900px) {
-	#descargacurriculum{
+	#curriculumdownload{
 		margin-top:10em;
 	}
 
-	#trayectoria p{
+	#career p{
 		margin-top: 15em !important;
 	}
 }
 
 @media (min-height: 800px) {
-	#descargacurriculum{
+	#curriculumdownload{
 		margin-top:7em;
 	}
 
-	#trayectoria p{
+	#career p{
 		margin-top: 12em !important;
 	}
 }
 
 @media (max-height: 680px) {
-	#trayectoria p{
+	#career p{
 		margin-top: 3.5em !important;
 	}
 }
 
 @media (max-height: 650px) {
-	#landing-content #titulo{
+	#landing-content #title{
 		margin-top: 2em !important;
 	}
-	#descargacurriculum{
+	#curriculumdownload{
 		margin-top: 2em !important;
 	}
-	#trayectoria p{
+	#career p{
 		margin-top: 3.5em !important;
 	}
 }

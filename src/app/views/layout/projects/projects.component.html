@@ -1,0 +1,14 @@
+<section (window:resize)="onResize($event)" class="projects">
+	<app-trapezoid [sectionName]="projectSectionName"></app-trapezoid>
+
+	<article class="projectsContent">
+		<div class="gallery" *ngFor="let project of projectList" (click)="onSelect(project);">
+			<div class="img-container">
+				<img class="gallery-img" [src]="project.imgs[project.imgIndex]" alt={{project.name}}>
+				<div class="overlay">
+					<div class="text">{{project.name}}</div>
+				</div>
+			</div>
+		</div>
+	</article>
+</section>

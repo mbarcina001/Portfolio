@@ -1,12 +1,12 @@
 ﻿<app-landing></app-landing>
 
-<app-trayectoria [listaTrayectorias]=this.listaTrayectorias></app-trayectoria>
+<app-career [careerList]=EXPOSE_APP_CONSTANTS.careerList></app-career>
 
-<app-proyectos [proyectos]="this.proyectos" [nombreSeccionProyectos]="'Proyectos'"></app-proyectos>
-<app-proyectos [proyectos]="this.otrosProyectos" [nombreSeccionProyectos]="'Otros Proyectos'"></app-proyectos>
+<app-projects [projectList]="EXPOSE_APP_CONSTANTS.projectList" [projectSectionName]="'Proyectos'"></app-projects>
+<app-projects [projectList]="EXPOSE_APP_CONSTANTS.otherProjectList" [projectSectionName]="'Otros Proyectos'"></app-projects>
 
-<app-aptitudes [aptitudes]="this.aptitudes"></app-aptitudes>
+<app-knowledge [knowledgeList]="EXPOSE_APP_CONSTANTS.knowledgeList"></app-knowledge>
 
-<app-contacto></app-contacto>
+<app-contact></app-contact>
 
 <app-footer></app-footer>

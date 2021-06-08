@@ -2,11 +2,11 @@
 	text-align:center;
 }
 
-.oculto{
+.hidden{
 	display:none;
 }
 
-.seccion{
+.section{
 	display:block;
 	margin:50px;
 	clear:both;
