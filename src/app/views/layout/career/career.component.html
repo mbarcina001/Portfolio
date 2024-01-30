@@ -1,0 +1,48 @@
+<section id="career" class="career">
+    <app-trapezoid [sectionName]="sectionName"></app-trapezoid>
+
+    <div class="desktop" *ngIf="!isMobile()">
+        <div class="logos d-flex justify-content-center">
+            <ng-template ngFor let-career [ngForOf]="this.careerList" let-i="index">
+                <img
+                    class="rounded-circle mb-4 mr-2 ml-2 logo-career"
+                    [ngClass]="{'active': isSelectedCareer(career)}"
+                    [src]="career.image"
+                    [alt]="career.name"
+                    (click)="selectCareer(career)"
+                />
+            </ng-template>
+        </div>
+
+        <div class="info-career">
+            <h2 class="text-center">{{this.selectedCareer.name}}</h2>
+            <h3>{{this.selectedCareer.position}}</h3>
+            <h4 class="date">{{this.selectedCareer.timePeriod}}</h4>
+
+            <div [innerHTML]=this.selectedCareer.description></div>
+        </div>
+    </div>
+
+    <div class="mobile" *ngIf="isMobile()">
+        <div class="logos row justify-content-center">
+            <ng-template ngFor let-career [ngForOf]="this.careerList" let-i="index">
+                <img
+                    class="rounded-circle mb-4 logo-career" 
+                    [ngClass]="{'active': isSelectedCareer(career)}"
+                    [src]="career.image" 
+                    [alt]="career.name"
+                    (click)="selectCareer(career)"
+                />
+            </ng-template>
+        </div>
+
+        <div class="info-career">
+            <h2 class="text-center">{{this.selectedCareer.name}}</h2>
+            <h3>{{this.selectedCareer.position}}</h3>
+            <h4 class="date">{{this.selectedCareer.timePeriod}}</h4>
+
+            <div [innerHTML]=this.selectedCareer.description></div>
+        </div>
+    </div>
+
+</section>

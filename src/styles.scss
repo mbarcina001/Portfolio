@@ -1,0 +1,45 @@
+@font-face {
+  font-family: "Coolvetica";
+  src: url("/assets/webfonts/coolvetica.ttf") format("truetype");
+}
+
+body{
+	margin: 0 !important;
+  padding:0 !important;
+  overflow: auto !important;
+  background: white !important;
+}
+
+.mat-dialog-container {
+	padding: 0 !important;
+}
+
+.cdk-global-overlay-wrapper {
+  display: flex;
+  position: absolute;
+  z-index: 1000;
+  overflow: auto;
+  pointer-events: auto;  
+}
+
+/* Small devices */
+@media (max-width: 767px) {
+  .trapezoid {
+    width: 5%;
+  }
+  .trapezoid:nth-child(3) {
+    width: 70%;
+  }
+}
+/* Mobile */
+@media (max-width: 425px) {
+  .trapezoid {
+    width: 6%;
+  }
+  .trapezoid:nth-child(3) {
+    width: 60%;
+  }
+  .trapezoid h1 {
+    left: 30px;
+  }
+}

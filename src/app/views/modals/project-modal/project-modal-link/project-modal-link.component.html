@@ -1,0 +1,43 @@
+<ng-container *ngIf="this.project">
+  <div class="link-container" *ngIf="this.project.linkType==='arklink'">
+    <a class="link arklink" href="{{this.project.link}}" target="_blank">
+      Enlace al juego
+    </a>
+  </div>
+
+  <div class="link-container" *ngIf="this.project.linkType==='gitlink'">
+    <a class="link gitlink" href="{{this.project.link}}" target="_blank">
+      <i class="fab fa-github fa-2x"></i> Enlace en Github
+    </a>
+  </div>
+
+  <div class="link-container" *ngIf="this.project.linkType==='IXA'">
+    <p><i>Este project es propiedad del grupo de investigación IXA de la UPV/EHU, y su código no se encuentra disponible para ser mostrado de forma pública.</i></p>
+  </div>
+
+  <div class="link-container" *ngIf="this.project.linkType==='mmlink'">
+    <a class="link mmlink" href="{{this.project.link}}" target="_blank">
+      Enlace a la web
+    </a>
+  </div>
+
+  <div class="link-container" *ngIf="this.project.linkType==='applink'">
+    <a class="link applink" href="{{this.project.link}}" target="_blank">
+      Enlace a la app
+    </a>
+  </div>
+
+  <div class="link-container" *ngIf="this.project.linkType==='defaultlink'">
+    <a class="link defaultlink" href="{{this.project.link}}" target="_blank">
+      Enlace al portal
+    </a>
+  </div>
+
+  <div class="link-container" *ngIf="this.project.linkType==='desarrollo'">
+    <p><i>Este project se encuentra acutalmente en desarrollo</i></p>
+  </div>
+
+  <div class="link-container" *ngIf="this.project.linkType==='No'">
+    <p><i>Enlaces no disponibles.</i></p>
+  </div>
+</ng-container>

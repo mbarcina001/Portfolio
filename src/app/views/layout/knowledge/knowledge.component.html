@@ -1,0 +1,10 @@
+<section id="knowledge" class="section">
+	<app-trapezoid [sectionName]="sectionName"></app-trapezoid>
+
+	<article id="knowledge-content" class="knowledge-content">
+		<div class="knowledge" *ngFor="let knowledge of knowledgeList" >
+			<i class="{{knowledge.type}} {{knowledge.icon}}"></i>
+			<p class="knowledge-description">{{knowledge.description}}</p>
+		</div>
+	</article>
+</section>

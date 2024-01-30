@@ -1,0 +1,82 @@
+.trapezoid {
+  width: 2em;
+  height: 100px;
+  -webkit-transform: skew(-30deg);
+  -moz-transform: skew(-30deg);
+  -o-transform: skew(-30deg);
+  display: inline-block;
+
+  &:nth-child(3) {
+    width: 40%;
+    position: relative;
+    left: 20px;
+    top: -61px;
+  }
+
+  h1 {
+    -webkit-transform: skew(30deg);
+    -moz-transform: skew(30deg);
+    -o-transform: skew(30deg);
+    color: white;
+    position: relative;
+    left: 50px;
+    top:20px;
+    font-family:'Coolvetica';
+  }
+}
+
+
+.trapezoid.black {
+  background: black;
+}
+
+.trapezoid.white {
+  background: white;
+}
+
+@media (max-width: 991px) {
+  .trapezoid { 
+    &:nth-child(3) {
+      width: 70vw !important;
+    }
+  }
+}
+
+@media (max-width: 940px) {
+  .trapezoid { 
+    &:nth-child(3) {
+      width: 65vw !important;
+    }
+  }
+}
+
+/* SMALL DEVICES */
+@media (max-width: 767px) {
+  .trapezoid { 
+    &:nth-child(3) {
+      width: 60vw !important;
+      top: -69px;
+      left: 50px;
+    }
+
+    h1{
+      font-size: 2rem;
+      top: 28px;
+    }
+  }
+}
+
+
+@media (max-width: 552px) {
+	.trapezoid {
+    width:0em;
+
+    h1{
+      margin-top: 0.25em;
+      margin-left: -0.25em;
+      -webkit-transform: skew(30deg);
+      -moz-transform: skew(15deg);
+      -o-transform: skew(15deg);
+    }
+  }
+}
