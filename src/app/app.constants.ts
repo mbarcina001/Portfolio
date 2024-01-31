@@ -93,16 +93,16 @@ export const projectList: Project[] = [
 		name: 'Webs CCF',
 		description: 'Mantenimiento y atención de incidencias para las webs de servicios para CaixaBank Consumer Finance.',
 		imgs: [
-			'./assets/images/proyectos/ccf1.PNG',
-			'./assets/images/proyectos/ccf2.PNG',
-			'./assets/images/proyectos/ccf3.PNG',
-			'./assets/images/proyectos/ccf4.PNG',
-			'./assets/images/proyectos/ccf5.PNG',
-			'./assets/images/proyectos/ccf6.PNG',
-			'./assets/images/proyectos/ccf7.PNG',
-			'./assets/images/proyectos/ccf8.PNG'
+			'./assets/images/proyectos/ccf/1.PNG',
+			'./assets/images/proyectos/ccf/2.PNG',
+			'./assets/images/proyectos/ccf/3.PNG',
+			'./assets/images/proyectos/ccf/4.PNG',
+			'./assets/images/proyectos/ccf/5.PNG',
+			'./assets/images/proyectos/ccf/6.PNG',
+			'./assets/images/proyectos/ccf/7.PNG',
+			'./assets/images/proyectos/ccf/8.PNG'
 		],
-		imgIndex: 0,
+		coverImg: './assets/images/proyectos/ccf/cover.png',
 		features: [
 			'Webs de clientes para tiendas como IKEA, MediaMarkt etc.',
 			'Portal público de Teléfonica Consumer Finance',
@@ -117,19 +117,19 @@ export const projectList: Project[] = [
 		name: 'Minisite finonline',
 		description: 'Página web para solicitar la tarjeta de MediaMarkt, Gas Natural, Ventajon, etc.',
 		imgs: [
-			'./assets/images/proyectos/mm1.PNG',
-			'./assets/images/proyectos/gn1.PNG',
-			'./assets/images/proyectos/ve1.PNG',
-			'./assets/images/proyectos/mm2.PNG',
-			'./assets/images/proyectos/mm3.PNG',
-			'./assets/images/proyectos/mm4.PNG',
-			'./assets/images/proyectos/mm5.PNG',
-			'./assets/images/proyectos/mm6.PNG',
-			'./assets/images/proyectos/mm7.PNG',
-			'./assets/images/proyectos/mm8.PNG',
-			'./assets/images/proyectos/mm9.PNG'
+			'./assets/images/proyectos/finonline/1.PNG',
+			'./assets/images/proyectos/finonline/2.PNG',
+			'./assets/images/proyectos/finonline/3.PNG',
+			'./assets/images/proyectos/finonline/4.PNG',
+			'./assets/images/proyectos/finonline/5.PNG',
+			'./assets/images/proyectos/finonline/6.PNG',
+			'./assets/images/proyectos/finonline/7.PNG',
+			'./assets/images/proyectos/finonline/8.PNG',
+			'./assets/images/proyectos/finonline/9.PNG',
+			'./assets/images/proyectos/finonline/10.PNG',
+			'./assets/images/proyectos/finonline/11.PNG',
 		],
-		imgIndex: 0,
+		coverImg: './assets/images/proyectos/finonline/cover.png',
 		features: [
 			'Estructura realizada mediante Struts.',
 			'Sistema de navegación personalizable y adaptable de cara a que el minisite pueda ser empleado por otras marcas.',
@@ -145,15 +145,15 @@ export const projectList: Project[] = [
 		name: 'Digitalización Telefónica Consumer Finance',
 		description: 'Página web para financiar diversos teléfonos móviles con TCF',
 		imgs: [
-			'./assets/images/proyectos/dig1.PNG',
-			'./assets/images/proyectos/dig2.PNG',
-			'./assets/images/proyectos/dig3.PNG',
-			'./assets/images/proyectos/dig4.PNG',
-			'./assets/images/proyectos/dig5.PNG',
-			'./assets/images/proyectos/dig6.PNG',
-			'./assets/images/proyectos/dig7.PNG'
+			'./assets/images/proyectos/digitalización/1.PNG',
+			'./assets/images/proyectos/digitalización/2.PNG',
+			'./assets/images/proyectos/digitalización/3.PNG',
+			'./assets/images/proyectos/digitalización/4.PNG',
+			'./assets/images/proyectos/digitalización/5.PNG',
+			'./assets/images/proyectos/digitalización/6.PNG',
+			'./assets/images/proyectos/digitalización/7.PNG'
 		],
-		imgIndex: 0,
+		coverImg: './assets/images/proyectos/digitalización/cover.png',
 		features: [
 			'Implementado con Angular 4',
 			`Uso de servicios REST implementados en un Middleware aparte en JAVA para realizar llamada con Axis y Jaxb y Soap
@@ -169,26 +169,26 @@ export const projectList: Project[] = [
         Recupera los tickets pendientes del técnico y le proporciona información sobre las tareas que tiene el técnico para ese día, las
         ubicaciones a las que se tiene que desplazar, los componentes necesarios, etc.`,
 		imgs: [
-			'./assets/images/proyectos/fms1.PNG',
-			'./assets/images/proyectos/fms2.png',
-			'./assets/images/proyectos/fms3.png',
-			'./assets/images/proyectos/fms4.png',
-			'./assets/images/proyectos/fms5.png',
-			'./assets/images/proyectos/fms6.png',
-			'./assets/images/proyectos/fms7.png',
-			'./assets/images/proyectos/fms8.png',
-			'./assets/images/proyectos/fms9.png',
-			'./assets/images/proyectos/fms10.png',
-			'./assets/images/proyectos/fms11.png',
-			'./assets/images/proyectos/fms12.png',
-			'./assets/images/proyectos/fms13.png',
-			'./assets/images/proyectos/fms14.png',
-			'./assets/images/proyectos/fms15.png',
-			'./assets/images/proyectos/fms16.png',
-			'./assets/images/proyectos/fms17.png',
-			'./assets/images/proyectos/fms18.png',
+			'./assets/images/proyectos/fms/1.PNG',
+			'./assets/images/proyectos/fms/2.png',
+			'./assets/images/proyectos/fms/3.png',
+			'./assets/images/proyectos/fms/4.png',
+			'./assets/images/proyectos/fms/5.png',
+			'./assets/images/proyectos/fms/6.png',
+			'./assets/images/proyectos/fms/7.png',
+			'./assets/images/proyectos/fms/8.png',
+			'./assets/images/proyectos/fms/9.png',
+			'./assets/images/proyectos/fms/10.png',
+			'./assets/images/proyectos/fms/11.png',
+			'./assets/images/proyectos/fms/12.png',
+			'./assets/images/proyectos/fms/13.png',
+			'./assets/images/proyectos/fms/14.png',
+			'./assets/images/proyectos/fms/15.png',
+			'./assets/images/proyectos/fms/16.png',
+			'./assets/images/proyectos/fms/17.png',
+			'./assets/images/proyectos/fms/18.png',
 		],
-		imgIndex: 9,
+		coverImg: './assets/images/proyectos/fms/cover.png',
 		features: [
 			'Implementado con Angular 6, Ionic 3 y Cordova',
 			'Uso de diversos plugins de Cordova para el acceso de ficheros, uso de la cámara, lector de código de barras, etc.',
@@ -203,12 +203,12 @@ export const projectList: Project[] = [
         name: 'SMED',
         description: 'Página web para la gestión de un taller de laminado.',
         imgs: [
-            './assets/images/proyectos/smed1.PNG',
-            './assets/images/proyectos/smed2.PNG',
-            './assets/images/proyectos/smed3.PNG',
-            './assets/images/proyectos/smed4.PNG'
+            './assets/images/proyectos/smed/1.PNG',
+            './assets/images/proyectos/smed/2.PNG',
+            './assets/images/proyectos/smed/3.PNG',
+            './assets/images/proyectos/smed/4.PNG'
         ],
-        imgIndex: 1,
+		coverImg: './assets/images/proyectos/smed/cover.png',
         features: [
             'Desarrollado con AngularJS',
             'Emplea el template Gentelella',
@@ -224,15 +224,15 @@ export const projectList: Project[] = [
         name: 'Maquetación web: Booker',
         description: 'Maquetación de la nueva página web de Booker. HTML5, CSS y Bootstrap.',
         imgs: [
-            './assets/images/proyectos/booker1.png',
-            './assets/images/proyectos/booker2.png',
-            './assets/images/proyectos/booker3.png',
-            './assets/images/proyectos/booker4.png',
-            './assets/images/proyectos/booker5.png',
-            './assets/images/proyectos/booker6.png',
-            './assets/images/proyectos/booker7.png'
+            './assets/images/proyectos/booker/1.png',
+            './assets/images/proyectos/booker/2.png',
+            './assets/images/proyectos/booker/3.png',
+            './assets/images/proyectos/booker/4.png',
+            './assets/images/proyectos/booker/5.png',
+            './assets/images/proyectos/booker/6.png',
+            './assets/images/proyectos/booker/7.png'
         ],
-        imgIndex: 0,
+		coverImg: './assets/images/proyectos/booker/cover.png',
         features: [],
         linkType: 'No',
         link: 'No'
@@ -242,14 +242,14 @@ export const projectList: Project[] = [
 		description: `Aplicación para la recopilación de incidencias en aviación y la gestión de la taxonomía empleada en los informes que
         recogen estas incidencias así como otras gestiones comunes en este tipo de aplicaciones como roles, usuarios, etc.`,
 		imgs: [
-			'./assets/images/proyectos/eccairs1.png',
-			'./assets/images/proyectos/eccairs2.png',
-			'./assets/images/proyectos/eccairs3.png',
-			'./assets/images/proyectos/eccairs4.png',
-			'./assets/images/proyectos/eccairs5.png',
-			'./assets/images/proyectos/eccairs6.png',
+			'./assets/images/proyectos/eccairs/1.png',
+			'./assets/images/proyectos/eccairs/2.png',
+			'./assets/images/proyectos/eccairs/3.png',
+			'./assets/images/proyectos/eccairs/4.png',
+			'./assets/images/proyectos/eccairs/5.png',
+			'./assets/images/proyectos/eccairs/6.png',
 		],
-		imgIndex: 0,
+		coverImg: './assets/images/proyectos/eccairs/cover.png',
 		features: [
 			'Parte front implementada con Angular 8/10, Ngrx y Ngrx/data',
 			'Uso de librerías de apoyo como Bootstrap y Kendo',
@@ -263,18 +263,18 @@ export const projectList: Project[] = [
 		name: 'AbaQus / Aquila',
 		description: `Por definir.`,
 		imgs: [
-			'./assets/images/proyectos/abaqus1.png',
-			'./assets/images/proyectos/abaqus2.png',
-			'./assets/images/proyectos/abaqus3.png',
-			'./assets/images/proyectos/abaqus4.png',
-			'./assets/images/proyectos/abaqus5.png',
-			'./assets/images/proyectos/abaqus6.png',
-			'./assets/images/proyectos/abaqus7.png',
-			'./assets/images/proyectos/abaqus8.png',
-			'./assets/images/proyectos/abaqus9.png',
-			'./assets/images/proyectos/abaqus10.png',
+			'./assets/images/proyectos/abaqus/1.png',
+			'./assets/images/proyectos/abaqus/2.png',
+			'./assets/images/proyectos/abaqus/3.png',
+			'./assets/images/proyectos/abaqus/4.png',
+			'./assets/images/proyectos/abaqus/5.png',
+			'./assets/images/proyectos/abaqus/6.png',
+			'./assets/images/proyectos/abaqus/7.png',
+			'./assets/images/proyectos/abaqus/8.png',
+			'./assets/images/proyectos/abaqus/9.png',
+			'./assets/images/proyectos/abaqus/10.png',
 		],
-		imgIndex: 0,
+		coverImg: './assets/images/proyectos/abaqus/cover.png',
 		features: [
 			'Parte front implementada con Angular 12',
 			'Uso de librerías de apoyo como Bootstrap, Datatables y PrimeNg para las gráficas',
@@ -283,12 +283,12 @@ export const projectList: Project[] = [
 		link: 'No'
 	}, {
 		id: 'p9',
-		name: 'Nueva ZonZurich',
+		name: 'Nueva ZonaZurich',
 		description: `Por definir.`,
 		imgs: [
-			'./assets/images/proyectos/zz1.png'
+			'./assets/images/proyectos/zona-zurich/1.png'
 		],
-		imgIndex: 0,
+		coverImg: './assets/images/proyectos/zona-zurich/cover.png',
 		features: [
 			'Parte front implementada con Vue.js y TypeScript',
 			'Uso de un Bff (Backend for front-end) como intermediario entre la parte visual del front y el backend',
@@ -306,10 +306,10 @@ export const careerProjectList: Project[] = [
 		name: 'Juego: Pasapalabra',
 		description: 'Juego realizado en Java del popular concurso de televisión Pasapalabra.',
 		imgs: [
-			'./assets/images/proyectos/pasapalabra1.JPG',
-			'./assets/images/proyectos/pasapalabra2.JPG'
+			'./assets/images/proyectos/pasapalabra/1.JPG',
+			'./assets/images/proyectos/pasapalabra/2.JPG'
 		],
-		imgIndex: 1,
+		coverImg: './assets/images/proyectos/pasapalabra/cover.jpg',
 		features: [],
 		linkType: 'gitlink',
 		link: 'https://github.com/jagumiel/Pasapalabra'
@@ -318,20 +318,20 @@ export const careerProjectList: Project[] = [
 		name: 'Juego: Arkanoid',
 		description: 'Juego Arkanoid desarrollado en JavaScript para navegador web',
 		imgs: [
-			'./assets/images/proyectos/arkanoid0.png',
-			'./assets/images/proyectos/arkanoid1.png',
-			'./assets/images/proyectos/arkanoid2.png',
-			'./assets/images/proyectos/arkanoid3.png',
-			'./assets/images/proyectos/arkanoid4.png',
-			'./assets/images/proyectos/arkanoid5.png',
-			'./assets/images/proyectos/arkanoid6.png',
-			'./assets/images/proyectos/arkanoid7.png',
-			'./assets/images/proyectos/arkanoid8.png',
-			'./assets/images/proyectos/arkanoid9.png',
-			'./assets/images/proyectos/arkanoid10.png',
-			'./assets/images/proyectos/arkanoid11.png'
+			'./assets/images/proyectos/arkanoid/0.png',
+			'./assets/images/proyectos/arkanoid/1.png',
+			'./assets/images/proyectos/arkanoid/2.png',
+			'./assets/images/proyectos/arkanoid/3.png',
+			'./assets/images/proyectos/arkanoid/4.png',
+			'./assets/images/proyectos/arkanoid/5.png',
+			'./assets/images/proyectos/arkanoid/6.png',
+			'./assets/images/proyectos/arkanoid/7.png',
+			'./assets/images/proyectos/arkanoid/8.png',
+			'./assets/images/proyectos/arkanoid/9.png',
+			'./assets/images/proyectos/arkanoid/10.png',
+			'./assets/images/proyectos/arkanoid/11.png'
 		],
-		imgIndex: 11,
+		coverImg: './assets/images/proyectos/arkanoid/cover.png',
 		features: [
 			'Desarrollado en JavaScript',
 			'Incluye hasta 10 niveles',
@@ -346,12 +346,12 @@ export const careerProjectList: Project[] = [
 		name: 'Juego: Ruleta de la fortuna',
 		description: 'Juego en Java del popular programa de televisión La ruleta de la fortuna',
 		imgs: [
-			'./assets/images/proyectos/ruleta1.JPG',
-			'./assets/images/proyectos/ruleta2.JPG',
-			'./assets/images/proyectos/ruleta3.JPG',
-			'./assets/images/proyectos/ruleta4.JPG'
+			'./assets/images/proyectos/ruleta/1.JPG',
+			'./assets/images/proyectos/ruleta/2.JPG',
+			'./assets/images/proyectos/ruleta/3.JPG',
+			'./assets/images/proyectos/ruleta/4.JPG'
 		],
-		imgIndex: 1,
+		coverImg: './assets/images/proyectos/ruleta/cover.jpg',
 		features: [],
 		linkType: 'gitlink',
 		link: 'https://github.com/mbarcina001/RuletaDeLaFortuna'
@@ -360,9 +360,9 @@ export const careerProjectList: Project[] = [
 		name: 'Gestor de encierros en San Fermín',
 		description: 'Aplicación en Java para que las ganaderías que participan en San Fermín puedan administrar su participación.',
 		imgs: [
-			'./assets/images/proyectos/encierros1.JPG',
+			'./assets/images/proyectos/encierros/1.JPG',
 		],
-		imgIndex: 0,
+		coverImg: './assets/images/proyectos/encierros/cover.ruleta',
 		features: [
 			'Gestión de animales (toros y cabestros).',
 			'Gestión de la alineación.',
@@ -376,13 +376,13 @@ export const careerProjectList: Project[] = [
 		name: 'Aplicación Android: Gestor de Reuniones',
 		description: 'Aplicación en Android para la gestión de reuniones.',
 		imgs: [
-			'./assets/images/proyectos/App1.png',
-			'./assets/images/proyectos/App2.png',
-			'./assets/images/proyectos/App3.png',
-			'./assets/images/proyectos/App4.png',
-			'./assets/images/proyectos/App5.png'
+			'./assets/images/proyectos/App/1.png',
+			'./assets/images/proyectos/App/2.png',
+			'./assets/images/proyectos/App/3.png',
+			'./assets/images/proyectos/App/4.png',
+			'./assets/images/proyectos/App/5.png'
 		],
-		imgIndex: 2,
+		coverImg: './assets/images/proyectos/App/cover.png',
 		features: [
 			'Funciones para añadir, modificar y eliminar reuniones.',
 			'Notificaciones.',
@@ -400,12 +400,12 @@ export const careerProjectList: Project[] = [
 		description: `Aplicación que emplea técnicas de minería de datos (aprendizaje semisupervisado y evaluación no supervisada)
         para identificar entidades tales como enfermedades y medicamentos en textos médicos.`,
 		imgs: [
-			'./assets/images/proyectos/TFG1.JPG',
-			'./assets/images/proyectos/tfg2.JPG',
-			'./assets/images/proyectos/tfg3.JPG',
-			'./assets/images/proyectos/tfg4.JPG'
+			'./assets/images/proyectos/tfg/1.JPG',
+			'./assets/images/proyectos/tfg/2.JPG',
+			'./assets/images/proyectos/tfg/3.JPG',
+			'./assets/images/proyectos/tfg/4.JPG'
 		],
-		imgIndex: 3,
+		coverImg: './assets/images/proyectos/tfg/cover.jpg',
 		features: [],
 		linkType: 'IXA',
 		link: 'No'
@@ -418,11 +418,11 @@ export const otherProjectList: Project[] = [
 		name: 'App: Pokedex',
 		description: 'Aplicación multiplataforma que simula una pokédex. Realizada para un proceso de selección.',
 		imgs: [
-			'./assets/images/proyectos/pokedex1.jpg',
-			'./assets/images/proyectos/pokedex2.jpg',
-			'./assets/images/proyectos/pokedex3.jpg'
+			'./assets/images/proyectos/pokedex/1.jpg',
+			'./assets/images/proyectos/pokedex/2.jpg',
+			'./assets/images/proyectos/pokedex/3.jpg'
 		],
-		imgIndex: 0,
+		coverImg: './assets/images/proyectos/pokedex/cover.jpg',
 		features: [
 			'Implementada mediante Ionic y Angular',
 			'Consume servicios REST para la obtención de datos',
@@ -436,11 +436,11 @@ export const otherProjectList: Project[] = [
 		name: 'Github Issue Search',
 		description: 'Página web para la búsqueda de issues en proyectos de github',
 		imgs: [
-			'./assets/images/proyectos/issuesearch1.PNG',
-			'./assets/images/proyectos/issuesearch2.PNG',
-			'./assets/images/proyectos/issuesearch3.PNG'
+			'./assets/images/proyectos/issue-search/1.PNG',
+			'./assets/images/proyectos/issue-search/2.PNG',
+			'./assets/images/proyectos/issue-search/3.PNG'
 		],
-		imgIndex: 0,
+		coverImg: './assets/images/proyectos/issue-search/cover.png',
 		features: [
 			'Implementada con Angular 8',
 			'Emplea la API de Github para obtener las issues',
@@ -454,16 +454,16 @@ export const otherProjectList: Project[] = [
 		name: 'SpringMarket',
 		description: 'Página web para ecommerce',
 		imgs: [
-			'./assets/images/proyectos/springmarket1.png',
-			'./assets/images/proyectos/springmarket2.png',
-			'./assets/images/proyectos/springmarket3.png',
-			'./assets/images/proyectos/springmarket4.png',
-			'./assets/images/proyectos/springmarket5.png',
-			'./assets/images/proyectos/springmarket6.png',
-			'./assets/images/proyectos/springmarket7.png',
-			'./assets/images/proyectos/springmarket8.png',
+			'./assets/images/proyectos/springmarket/1.png',
+			'./assets/images/proyectos/springmarket/2.png',
+			'./assets/images/proyectos/springmarket/3.png',
+			'./assets/images/proyectos/springmarket/4.png',
+			'./assets/images/proyectos/springmarket/5.png',
+			'./assets/images/proyectos/springmarket/6.png',
+			'./assets/images/proyectos/springmarket/7.png',
+			'./assets/images/proyectos/springmarket/8.png',
 		],
-		imgIndex: 0,
+		coverImg: './assets/images/proyectos/springmarket/cover.png',
 		features: [
 			'Implementada con Spring MVC e Hibernate',
 			'Emplea BBDD para la realización de operaciones CRUD',
@@ -483,16 +483,16 @@ export const otherProjectList: Project[] = [
 		name: 'Kraken',
 		description: 'Aplicación web para gestión de agenda',
 		imgs: [
-			'./assets/images/proyectos/kraken1.png',
-			'./assets/images/proyectos/kraken2.png',
-			'./assets/images/proyectos/kraken3.png',
-			'./assets/images/proyectos/kraken4.png',
-			'./assets/images/proyectos/kraken5.png',
-			'./assets/images/proyectos/kraken6.png',
-			'./assets/images/proyectos/kraken7.png',
-			'./assets/images/proyectos/kraken8.png',
+			'./assets/images/proyectos/kraken/1.png',
+			'./assets/images/proyectos/kraken/2.png',
+			'./assets/images/proyectos/kraken/3.png',
+			'./assets/images/proyectos/kraken/4.png',
+			'./assets/images/proyectos/kraken/5.png',
+			'./assets/images/proyectos/kraken/6.png',
+			'./assets/images/proyectos/kraken/7.png',
+			'./assets/images/proyectos/kraken/8.png',
 		],
-		imgIndex: 0,
+		coverImg: './assets/images/proyectos/kraken/cover.png',
 		features: [
 			'Arquitectura de microservicios',
 			'Base de datos MySQL con opción para deplegar mediante Docker',

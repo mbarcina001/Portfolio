@@ -6,6 +6,7 @@ import { FooterComponent } from './views/components/footer/footer.component';
 import { KnowledgeComponent } from './views/layout/knowledge/knowledge.component';
 import { ProjectsComponent } from './views/layout/projects/projects.component';
 import * as appConstants from './app.constants';
+import { ContactComponent } from './views/layout/contact/contact.component';
 
 @Component({
   selector: 'app-root',
@@ -16,6 +17,7 @@ import * as appConstants from './app.constants';
     CareerComponent,
     KnowledgeComponent,
     ProjectsComponent,
+    ContactComponent,
     FooterComponent
   ],
   templateUrl: './app.component.html',

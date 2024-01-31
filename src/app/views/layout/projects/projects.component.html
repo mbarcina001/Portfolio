@@ -5,7 +5,7 @@
 		<ng-container *ngFor="let project of projectList.slice().reverse().slice(0, maxShown)">
 			<div class="gallery" (click)="onSelect(project);">
 				<div class="img-container">
-					<img class="gallery-img" [src]="project.imgs[project.imgIndex]" alt={{project.name}}>
+					<img class="gallery-img" [src]="project.coverImg" alt={{project.name}}>
 					<div class="overlay">
 						<div class="text">{{project.name}}</div>
 					</div>

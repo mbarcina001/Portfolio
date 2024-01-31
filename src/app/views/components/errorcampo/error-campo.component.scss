@@ -1,0 +1,17 @@
+.error-message{
+    background-color: rgb(255, 186, 186);
+    color: rgb(216, 0, 12);
+    padding: 1em 1em 1em 1.5em;
+    margin-bottom: 1.5em;
+    z-index: -100;
+    border-radius: 30px;
+    border: 2px solid;
+
+    i{
+        margin-right:0.5em;
+    }
+    p{
+        margin:0px !important;
+        display: inline;
+    }
+}

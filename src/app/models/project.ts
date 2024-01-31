@@ -3,7 +3,7 @@
 	name: string;
 	description: string;
 	imgs: string[];
-	imgIndex: number;
+	coverImg: string;
 	features: string[];
 	linkType: string;
 	link: string;
