@@ -72,157 +72,465 @@
 }
 @-moz-keyframes pong-loader-paddle-1 {
   0% {
-    -moz-box-shadow: inset #353c39 0 5px 0 0, inset #353c39 0 -35px 0 0, inset #353c39 -3px 0 0 0, inset #8cdb8b -10px 0 0 0;
-    box-shadow: inset #353c39 0 5px 0 0, inset #353c39 0 -35px 0 0, inset #353c39 -3px 0 0 0, inset #8cdb8b -10px 0 0 0;
+    -moz-box-shadow:
+      inset #353c39 0 5px 0 0,
+      inset #353c39 0 -35px 0 0,
+      inset #353c39 -3px 0 0 0,
+      inset #8cdb8b -10px 0 0 0;
+    box-shadow:
+      inset #353c39 0 5px 0 0,
+      inset #353c39 0 -35px 0 0,
+      inset #353c39 -3px 0 0 0,
+      inset #8cdb8b -10px 0 0 0;
   }
   25% {
-    -moz-box-shadow: inset #353c39 0 15px 0 0, inset #353c39 0 -25px 0 0, inset #353c39 -3px 0 0 0, inset #8cdb8b -10px 0 0 0;
-    box-shadow: inset #353c39 0 15px 0 0, inset #353c39 0 -25px 0 0, inset #353c39 -3px 0 0 0, inset #8cdb8b -10px 0 0 0;
+    -moz-box-shadow:
+      inset #353c39 0 15px 0 0,
+      inset #353c39 0 -25px 0 0,
+      inset #353c39 -3px 0 0 0,
+      inset #8cdb8b -10px 0 0 0;
+    box-shadow:
+      inset #353c39 0 15px 0 0,
+      inset #353c39 0 -25px 0 0,
+      inset #353c39 -3px 0 0 0,
+      inset #8cdb8b -10px 0 0 0;
   }
   50% {
-    -moz-box-shadow: inset #353c39 0 0 0 0, inset #353c39 0 -40px 0 0, inset #353c39 -3px 0 0 0, inset #8cdb8b -10px 0 0 0;
-    box-shadow: inset #353c39 0 0 0 0, inset #353c39 0 -40px 0 0, inset #353c39 -3px 0 0 0, inset #8cdb8b -10px 0 0 0;
+    -moz-box-shadow:
+      inset #353c39 0 0 0 0,
+      inset #353c39 0 -40px 0 0,
+      inset #353c39 -3px 0 0 0,
+      inset #8cdb8b -10px 0 0 0;
+    box-shadow:
+      inset #353c39 0 0 0 0,
+      inset #353c39 0 -40px 0 0,
+      inset #353c39 -3px 0 0 0,
+      inset #8cdb8b -10px 0 0 0;
   }
   62.5% {
-    -moz-box-shadow: inset #353c39 0 10px 0 0, inset #353c39 0 -30px 0 0, inset #353c39 -3px 0 0 0, inset #8cdb8b -10px 0 0 0;
-    box-shadow: inset #353c39 0 10px 0 0, inset #353c39 0 -30px 0 0, inset #353c39 -3px 0 0 0, inset #8cdb8b -10px 0 0 0;
+    -moz-box-shadow:
+      inset #353c39 0 10px 0 0,
+      inset #353c39 0 -30px 0 0,
+      inset #353c39 -3px 0 0 0,
+      inset #8cdb8b -10px 0 0 0;
+    box-shadow:
+      inset #353c39 0 10px 0 0,
+      inset #353c39 0 -30px 0 0,
+      inset #353c39 -3px 0 0 0,
+      inset #8cdb8b -10px 0 0 0;
   }
   75% {
-    -moz-box-shadow: inset #353c39 0 40px 0 0, inset #353c39 0 0 0 0, inset #353c39 -3px 0 0 0, inset #8cdb8b -10px 0 0 0;
-    box-shadow: inset #353c39 0 40px 0 0, inset #353c39 0 0 0 0, inset #353c39 -3px 0 0 0, inset #8cdb8b -10px 0 0 0;
+    -moz-box-shadow:
+      inset #353c39 0 40px 0 0,
+      inset #353c39 0 0 0 0,
+      inset #353c39 -3px 0 0 0,
+      inset #8cdb8b -10px 0 0 0;
+    box-shadow:
+      inset #353c39 0 40px 0 0,
+      inset #353c39 0 0 0 0,
+      inset #353c39 -3px 0 0 0,
+      inset #8cdb8b -10px 0 0 0;
   }
   100% {
-    -moz-box-shadow: inset #353c39 0 5px 0 0, inset #353c39 0 -35px 0 0, inset #353c39 -3px 0 0 0, inset #8cdb8b -10px 0 0 0;
-    box-shadow: inset #353c39 0 5px 0 0, inset #353c39 0 -35px 0 0, inset #353c39 -3px 0 0 0, inset #8cdb8b -10px 0 0 0;
+    -moz-box-shadow:
+      inset #353c39 0 5px 0 0,
+      inset #353c39 0 -35px 0 0,
+      inset #353c39 -3px 0 0 0,
+      inset #8cdb8b -10px 0 0 0;
+    box-shadow:
+      inset #353c39 0 5px 0 0,
+      inset #353c39 0 -35px 0 0,
+      inset #353c39 -3px 0 0 0,
+      inset #8cdb8b -10px 0 0 0;
   }
 }
 @-webkit-keyframes pong-loader-paddle-1 {
   0% {
-    -webkit-box-shadow: inset #353c39 0 5px 0 0, inset #353c39 0 -35px 0 0, inset #353c39 -3px 0 0 0, inset #8cdb8b -10px 0 0 0;
-    box-shadow: inset #353c39 0 5px 0 0, inset #353c39 0 -35px 0 0, inset #353c39 -3px 0 0 0, inset #8cdb8b -10px 0 0 0;
+    -webkit-box-shadow:
+      inset #353c39 0 5px 0 0,
+      inset #353c39 0 -35px 0 0,
+      inset #353c39 -3px 0 0 0,
+      inset #8cdb8b -10px 0 0 0;
+    box-shadow:
+      inset #353c39 0 5px 0 0,
+      inset #353c39 0 -35px 0 0,
+      inset #353c39 -3px 0 0 0,
+      inset #8cdb8b -10px 0 0 0;
   }
   25% {
-    -webkit-box-shadow: inset #353c39 0 15px 0 0, inset #353c39 0 -25px 0 0, inset #353c39 -3px 0 0 0, inset #8cdb8b -10px 0 0 0;
-    box-shadow: inset #353c39 0 15px 0 0, inset #353c39 0 -25px 0 0, inset #353c39 -3px 0 0 0, inset #8cdb8b -10px 0 0 0;
+    -webkit-box-shadow:
+      inset #353c39 0 15px 0 0,
+      inset #353c39 0 -25px 0 0,
+      inset #353c39 -3px 0 0 0,
+      inset #8cdb8b -10px 0 0 0;
+    box-shadow:
+      inset #353c39 0 15px 0 0,
+      inset #353c39 0 -25px 0 0,
+      inset #353c39 -3px 0 0 0,
+      inset #8cdb8b -10px 0 0 0;
   }
   50% {
-    -webkit-box-shadow: inset #353c39 0 0 0 0, inset #353c39 0 -40px 0 0, inset #353c39 -3px 0 0 0, inset #8cdb8b -10px 0 0 0;
-    box-shadow: inset #353c39 0 0 0 0, inset #353c39 0 -40px 0 0, inset #353c39 -3px 0 0 0, inset #8cdb8b -10px 0 0 0;
+    -webkit-box-shadow:
+      inset #353c39 0 0 0 0,
+      inset #353c39 0 -40px 0 0,
+      inset #353c39 -3px 0 0 0,
+      inset #8cdb8b -10px 0 0 0;
+    box-shadow:
+      inset #353c39 0 0 0 0,
+      inset #353c39 0 -40px 0 0,
+      inset #353c39 -3px 0 0 0,
+      inset #8cdb8b -10px 0 0 0;
   }
   62.5% {
-    -webkit-box-shadow: inset #353c39 0 10px 0 0, inset #353c39 0 -30px 0 0, inset #353c39 -3px 0 0 0, inset #8cdb8b -10px 0 0 0;
-    box-shadow: inset #353c39 0 10px 0 0, inset #353c39 0 -30px 0 0, inset #353c39 -3px 0 0 0, inset #8cdb8b -10px 0 0 0;
+    -webkit-box-shadow:
+      inset #353c39 0 10px 0 0,
+      inset #353c39 0 -30px 0 0,
+      inset #353c39 -3px 0 0 0,
+      inset #8cdb8b -10px 0 0 0;
+    box-shadow:
+      inset #353c39 0 10px 0 0,
+      inset #353c39 0 -30px 0 0,
+      inset #353c39 -3px 0 0 0,
+      inset #8cdb8b -10px 0 0 0;
   }
   75% {
-    -webkit-box-shadow: inset #353c39 0 40px 0 0, inset #353c39 0 0 0 0, inset #353c39 -3px 0 0 0, inset #8cdb8b -10px 0 0 0;
-    box-shadow: inset #353c39 0 40px 0 0, inset #353c39 0 0 0 0, inset #353c39 -3px 0 0 0, inset #8cdb8b -10px 0 0 0;
+    -webkit-box-shadow:
+      inset #353c39 0 40px 0 0,
+      inset #353c39 0 0 0 0,
+      inset #353c39 -3px 0 0 0,
+      inset #8cdb8b -10px 0 0 0;
+    box-shadow:
+      inset #353c39 0 40px 0 0,
+      inset #353c39 0 0 0 0,
+      inset #353c39 -3px 0 0 0,
+      inset #8cdb8b -10px 0 0 0;
   }
   100% {
-    -webkit-box-shadow: inset #353c39 0 5px 0 0, inset #353c39 0 -35px 0 0, inset #353c39 -3px 0 0 0, inset #8cdb8b -10px 0 0 0;
-    box-shadow: inset #353c39 0 5px 0 0, inset #353c39 0 -35px 0 0, inset #353c39 -3px 0 0 0, inset #8cdb8b -10px 0 0 0;
+    -webkit-box-shadow:
+      inset #353c39 0 5px 0 0,
+      inset #353c39 0 -35px 0 0,
+      inset #353c39 -3px 0 0 0,
+      inset #8cdb8b -10px 0 0 0;
+    box-shadow:
+      inset #353c39 0 5px 0 0,
+      inset #353c39 0 -35px 0 0,
+      inset #353c39 -3px 0 0 0,
+      inset #8cdb8b -10px 0 0 0;
   }
 }
 @keyframes pong-loader-paddle-1 {
   0% {
-    -moz-box-shadow: inset #353c39 0 5px 0 0, inset #353c39 0 -35px 0 0, inset #353c39 -3px 0 0 0, inset #8cdb8b -10px 0 0 0;
-    -webkit-box-shadow: inset #353c39 0 5px 0 0, inset #353c39 0 -35px 0 0, inset #353c39 -3px 0 0 0, inset #8cdb8b -10px 0 0 0;
-    box-shadow: inset #353c39 0 5px 0 0, inset #353c39 0 -35px 0 0, inset #353c39 -3px 0 0 0, inset #8cdb8b -10px 0 0 0;
+    -moz-box-shadow:
+      inset #353c39 0 5px 0 0,
+      inset #353c39 0 -35px 0 0,
+      inset #353c39 -3px 0 0 0,
+      inset #8cdb8b -10px 0 0 0;
+    -webkit-box-shadow:
+      inset #353c39 0 5px 0 0,
+      inset #353c39 0 -35px 0 0,
+      inset #353c39 -3px 0 0 0,
+      inset #8cdb8b -10px 0 0 0;
+    box-shadow:
+      inset #353c39 0 5px 0 0,
+      inset #353c39 0 -35px 0 0,
+      inset #353c39 -3px 0 0 0,
+      inset #8cdb8b -10px 0 0 0;
   }
   25% {
-    -moz-box-shadow: inset #353c39 0 15px 0 0, inset #353c39 0 -25px 0 0, inset #353c39 -3px 0 0 0, inset #8cdb8b -10px 0 0 0;
-    -webkit-box-shadow: inset #353c39 0 15px 0 0, inset #353c39 0 -25px 0 0, inset #353c39 -3px 0 0 0, inset #8cdb8b -10px 0 0 0;
-    box-shadow: inset #353c39 0 15px 0 0, inset #353c39 0 -25px 0 0, inset #353c39 -3px 0 0 0, inset #8cdb8b -10px 0 0 0;
+    -moz-box-shadow:
+      inset #353c39 0 15px 0 0,
+      inset #353c39 0 -25px 0 0,
+      inset #353c39 -3px 0 0 0,
+      inset #8cdb8b -10px 0 0 0;
+    -webkit-box-shadow:
+      inset #353c39 0 15px 0 0,
+      inset #353c39 0 -25px 0 0,
+      inset #353c39 -3px 0 0 0,
+      inset #8cdb8b -10px 0 0 0;
+    box-shadow:
+      inset #353c39 0 15px 0 0,
+      inset #353c39 0 -25px 0 0,
+      inset #353c39 -3px 0 0 0,
+      inset #8cdb8b -10px 0 0 0;
   }
   50% {
-    -moz-box-shadow: inset #353c39 0 0 0 0, inset #353c39 0 -40px 0 0, inset #353c39 -3px 0 0 0, inset #8cdb8b -10px 0 0 0;
-    -webkit-box-shadow: inset #353c39 0 0 0 0, inset #353c39 0 -40px 0 0, inset #353c39 -3px 0 0 0, inset #8cdb8b -10px 0 0 0;
-    box-shadow: inset #353c39 0 0 0 0, inset #353c39 0 -40px 0 0, inset #353c39 -3px 0 0 0, inset #8cdb8b -10px 0 0 0;
+    -moz-box-shadow:
+      inset #353c39 0 0 0 0,
+      inset #353c39 0 -40px 0 0,
+      inset #353c39 -3px 0 0 0,
+      inset #8cdb8b -10px 0 0 0;
+    -webkit-box-shadow:
+      inset #353c39 0 0 0 0,
+      inset #353c39 0 -40px 0 0,
+      inset #353c39 -3px 0 0 0,
+      inset #8cdb8b -10px 0 0 0;
+    box-shadow:
+      inset #353c39 0 0 0 0,
+      inset #353c39 0 -40px 0 0,
+      inset #353c39 -3px 0 0 0,
+      inset #8cdb8b -10px 0 0 0;
   }
   62.5% {
-    -moz-box-shadow: inset #353c39 0 10px 0 0, inset #353c39 0 -30px 0 0, inset #353c39 -3px 0 0 0, inset #8cdb8b -10px 0 0 0;
-    -webkit-box-shadow: inset #353c39 0 10px 0 0, inset #353c39 0 -30px 0 0, inset #353c39 -3px 0 0 0, inset #8cdb8b -10px 0 0 0;
-    box-shadow: inset #353c39 0 10px 0 0, inset #353c39 0 -30px 0 0, inset #353c39 -3px 0 0 0, inset #8cdb8b -10px 0 0 0;
+    -moz-box-shadow:
+      inset #353c39 0 10px 0 0,
+      inset #353c39 0 -30px 0 0,
+      inset #353c39 -3px 0 0 0,
+      inset #8cdb8b -10px 0 0 0;
+    -webkit-box-shadow:
+      inset #353c39 0 10px 0 0,
+      inset #353c39 0 -30px 0 0,
+      inset #353c39 -3px 0 0 0,
+      inset #8cdb8b -10px 0 0 0;
+    box-shadow:
+      inset #353c39 0 10px 0 0,
+      inset #353c39 0 -30px 0 0,
+      inset #353c39 -3px 0 0 0,
+      inset #8cdb8b -10px 0 0 0;
   }
   75% {
-    -moz-box-shadow: inset #353c39 0 40px 0 0, inset #353c39 0 0 0 0, inset #353c39 -3px 0 0 0, inset #8cdb8b -10px 0 0 0;
-    -webkit-box-shadow: inset #353c39 0 40px 0 0, inset #353c39 0 0 0 0, inset #353c39 -3px 0 0 0, inset #8cdb8b -10px 0 0 0;
-    box-shadow: inset #353c39 0 40px 0 0, inset #353c39 0 0 0 0, inset #353c39 -3px 0 0 0, inset #8cdb8b -10px 0 0 0;
+    -moz-box-shadow:
+      inset #353c39 0 40px 0 0,
+      inset #353c39 0 0 0 0,
+      inset #353c39 -3px 0 0 0,
+      inset #8cdb8b -10px 0 0 0;
+    -webkit-box-shadow:
+      inset #353c39 0 40px 0 0,
+      inset #353c39 0 0 0 0,
+      inset #353c39 -3px 0 0 0,
+      inset #8cdb8b -10px 0 0 0;
+    box-shadow:
+      inset #353c39 0 40px 0 0,
+      inset #353c39 0 0 0 0,
+      inset #353c39 -3px 0 0 0,
+      inset #8cdb8b -10px 0 0 0;
   }
   100% {
-    -moz-box-shadow: inset #353c39 0 5px 0 0, inset #353c39 0 -35px 0 0, inset #353c39 -3px 0 0 0, inset #8cdb8b -10px 0 0 0;
-    -webkit-box-shadow: inset #353c39 0 5px 0 0, inset #353c39 0 -35px 0 0, inset #353c39 -3px 0 0 0, inset #8cdb8b -10px 0 0 0;
-    box-shadow: inset #353c39 0 5px 0 0, inset #353c39 0 -35px 0 0, inset #353c39 -3px 0 0 0, inset #8cdb8b -10px 0 0 0;
+    -moz-box-shadow:
+      inset #353c39 0 5px 0 0,
+      inset #353c39 0 -35px 0 0,
+      inset #353c39 -3px 0 0 0,
+      inset #8cdb8b -10px 0 0 0;
+    -webkit-box-shadow:
+      inset #353c39 0 5px 0 0,
+      inset #353c39 0 -35px 0 0,
+      inset #353c39 -3px 0 0 0,
+      inset #8cdb8b -10px 0 0 0;
+    box-shadow:
+      inset #353c39 0 5px 0 0,
+      inset #353c39 0 -35px 0 0,
+      inset #353c39 -3px 0 0 0,
+      inset #8cdb8b -10px 0 0 0;
   }
 }
 @-moz-keyframes pong-loader-paddle-2 {
   0% {
-    -moz-box-shadow: inset #353c39 0 0 0 0, inset #353c39 0 -40px 0 0, inset #353c39 3px 0 0 0, inset #8cdb8b -10px 0 0 0;
-    box-shadow: inset #353c39 0 0 0 0, inset #353c39 0 -40px 0 0, inset #353c39 3px 0 0 0, inset #8cdb8b -10px 0 0 0;
+    -moz-box-shadow:
+      inset #353c39 0 0 0 0,
+      inset #353c39 0 -40px 0 0,
+      inset #353c39 3px 0 0 0,
+      inset #8cdb8b -10px 0 0 0;
+    box-shadow:
+      inset #353c39 0 0 0 0,
+      inset #353c39 0 -40px 0 0,
+      inset #353c39 3px 0 0 0,
+      inset #8cdb8b -10px 0 0 0;
   }
   50% {
-    -moz-box-shadow: inset #353c39 0 30px 0 0, inset #353c39 0 -10px 0 0, inset #353c39 3px 0 0 0, inset #8cdb8b -10px 0 0 0;
-    box-shadow: inset #353c39 0 30px 0 0, inset #353c39 0 -10px 0 0, inset #353c39 3px 0 0 0, inset #8cdb8b -10px 0 0 0;
+    -moz-box-shadow:
+      inset #353c39 0 30px 0 0,
+      inset #353c39 0 -10px 0 0,
+      inset #353c39 3px 0 0 0,
+      inset #8cdb8b -10px 0 0 0;
+    box-shadow:
+      inset #353c39 0 30px 0 0,
+      inset #353c39 0 -10px 0 0,
+      inset #353c39 3px 0 0 0,
+      inset #8cdb8b -10px 0 0 0;
   }
   62.5% {
-    -moz-box-shadow: inset #353c39 0 40px 0 0, inset #353c39 0 0 0 0, inset #353c39 3px 0 0 0, inset #8cdb8b -10px 0 0 0;
-    box-shadow: inset #353c39 0 40px 0 0, inset #353c39 0 0 0 0, inset #353c39 3px 0 0 0, inset #8cdb8b -10px 0 0 0;
+    -moz-box-shadow:
+      inset #353c39 0 40px 0 0,
+      inset #353c39 0 0 0 0,
+      inset #353c39 3px 0 0 0,
+      inset #8cdb8b -10px 0 0 0;
+    box-shadow:
+      inset #353c39 0 40px 0 0,
+      inset #353c39 0 0 0 0,
+      inset #353c39 3px 0 0 0,
+      inset #8cdb8b -10px 0 0 0;
   }
   75% {
-    -moz-box-shadow: inset #353c39 0 20px 0 0, inset #353c39 0 -20px 0 0, inset #353c39 3px 0 0 0, inset #8cdb8b -10px 0 0 0;
-    box-shadow: inset #353c39 0 20px 0 0, inset #353c39 0 -20px 0 0, inset #353c39 3px 0 0 0, inset #8cdb8b -10px 0 0 0;
+    -moz-box-shadow:
+      inset #353c39 0 20px 0 0,
+      inset #353c39 0 -20px 0 0,
+      inset #353c39 3px 0 0 0,
+      inset #8cdb8b -10px 0 0 0;
+    box-shadow:
+      inset #353c39 0 20px 0 0,
+      inset #353c39 0 -20px 0 0,
+      inset #353c39 3px 0 0 0,
+      inset #8cdb8b -10px 0 0 0;
   }
   100% {
-    -moz-box-shadow: inset #353c39 0 0 0 0, inset #353c39 0 -40px 0 0, inset #353c39 3px 0 0 0, inset #8cdb8b -10px 0 0 0;
-    box-shadow: inset #353c39 0 0 0 0, inset #353c39 0 -40px 0 0, inset #353c39 3px 0 0 0, inset #8cdb8b -10px 0 0 0;
+    -moz-box-shadow:
+      inset #353c39 0 0 0 0,
+      inset #353c39 0 -40px 0 0,
+      inset #353c39 3px 0 0 0,
+      inset #8cdb8b -10px 0 0 0;
+    box-shadow:
+      inset #353c39 0 0 0 0,
+      inset #353c39 0 -40px 0 0,
+      inset #353c39 3px 0 0 0,
+      inset #8cdb8b -10px 0 0 0;
   }
 }
 @-webkit-keyframes pong-loader-paddle-2 {
   0% {
-    -webkit-box-shadow: inset #353c39 0 0 0 0, inset #353c39 0 -40px 0 0, inset #353c39 3px 0 0 0, inset #8cdb8b -10px 0 0 0;
-    box-shadow: inset #353c39 0 0 0 0, inset #353c39 0 -40px 0 0, inset #353c39 3px 0 0 0, inset #8cdb8b -10px 0 0 0;
+    -webkit-box-shadow:
+      inset #353c39 0 0 0 0,
+      inset #353c39 0 -40px 0 0,
+      inset #353c39 3px 0 0 0,
+      inset #8cdb8b -10px 0 0 0;
+    box-shadow:
+      inset #353c39 0 0 0 0,
+      inset #353c39 0 -40px 0 0,
+      inset #353c39 3px 0 0 0,
+      inset #8cdb8b -10px 0 0 0;
   }
   50% {
-    -webkit-box-shadow: inset #353c39 0 30px 0 0, inset #353c39 0 -10px 0 0, inset #353c39 3px 0 0 0, inset #8cdb8b -10px 0 0 0;
-    box-shadow: inset #353c39 0 30px 0 0, inset #353c39 0 -10px 0 0, inset #353c39 3px 0 0 0, inset #8cdb8b -10px 0 0 0;
+    -webkit-box-shadow:
+      inset #353c39 0 30px 0 0,
+      inset #353c39 0 -10px 0 0,
+      inset #353c39 3px 0 0 0,
+      inset #8cdb8b -10px 0 0 0;
+    box-shadow:
+      inset #353c39 0 30px 0 0,
+      inset #353c39 0 -10px 0 0,
+      inset #353c39 3px 0 0 0,
+      inset #8cdb8b -10px 0 0 0;
   }
   62.5% {
-    -webkit-box-shadow: inset #353c39 0 40px 0 0, inset #353c39 0 0 0 0, inset #353c39 3px 0 0 0, inset #8cdb8b -10px 0 0 0;
-    box-shadow: inset #353c39 0 40px 0 0, inset #353c39 0 0 0 0, inset #353c39 3px 0 0 0, inset #8cdb8b -10px 0 0 0;
+    -webkit-box-shadow:
+      inset #353c39 0 40px 0 0,
+      inset #353c39 0 0 0 0,
+      inset #353c39 3px 0 0 0,
+      inset #8cdb8b -10px 0 0 0;
+    box-shadow:
+      inset #353c39 0 40px 0 0,
+      inset #353c39 0 0 0 0,
+      inset #353c39 3px 0 0 0,
+      inset #8cdb8b -10px 0 0 0;
   }
   75% {
-    -webkit-box-shadow: inset #353c39 0 20px 0 0, inset #353c39 0 -20px 0 0, inset #353c39 3px 0 0 0, inset #8cdb8b -10px 0 0 0;
-    box-shadow: inset #353c39 0 20px 0 0, inset #353c39 0 -20px 0 0, inset #353c39 3px 0 0 0, inset #8cdb8b -10px 0 0 0;
+    -webkit-box-shadow:
+      inset #353c39 0 20px 0 0,
+      inset #353c39 0 -20px 0 0,
+      inset #353c39 3px 0 0 0,
+      inset #8cdb8b -10px 0 0 0;
+    box-shadow:
+      inset #353c39 0 20px 0 0,
+      inset #353c39 0 -20px 0 0,
+      inset #353c39 3px 0 0 0,
+      inset #8cdb8b -10px 0 0 0;
   }
   100% {
-    -webkit-box-shadow: inset #353c39 0 0 0 0, inset #353c39 0 -40px 0 0, inset #353c39 3px 0 0 0, inset #8cdb8b -10px 0 0 0;
-    box-shadow: inset #353c39 0 0 0 0, inset #353c39 0 -40px 0 0, inset #353c39 3px 0 0 0, inset #8cdb8b -10px 0 0 0;
+    -webkit-box-shadow:
+      inset #353c39 0 0 0 0,
+      inset #353c39 0 -40px 0 0,
+      inset #353c39 3px 0 0 0,
+      inset #8cdb8b -10px 0 0 0;
+    box-shadow:
+      inset #353c39 0 0 0 0,
+      inset #353c39 0 -40px 0 0,
+      inset #353c39 3px 0 0 0,
+      inset #8cdb8b -10px 0 0 0;
   }
 }
 @keyframes pong-loader-paddle-2 {
   0% {
-    -moz-box-shadow: inset #353c39 0 0 0 0, inset #353c39 0 -40px 0 0, inset #353c39 3px 0 0 0, inset #8cdb8b -10px 0 0 0;
-    -webkit-box-shadow: inset #353c39 0 0 0 0, inset #353c39 0 -40px 0 0, inset #353c39 3px 0 0 0, inset #8cdb8b -10px 0 0 0;
-    box-shadow: inset #353c39 0 0 0 0, inset #353c39 0 -40px 0 0, inset #353c39 3px 0 0 0, inset #8cdb8b -10px 0 0 0;
+    -moz-box-shadow:
+      inset #353c39 0 0 0 0,
+      inset #353c39 0 -40px 0 0,
+      inset #353c39 3px 0 0 0,
+      inset #8cdb8b -10px 0 0 0;
+    -webkit-box-shadow:
+      inset #353c39 0 0 0 0,
+      inset #353c39 0 -40px 0 0,
+      inset #353c39 3px 0 0 0,
+      inset #8cdb8b -10px 0 0 0;
+    box-shadow:
+      inset #353c39 0 0 0 0,
+      inset #353c39 0 -40px 0 0,
+      inset #353c39 3px 0 0 0,
+      inset #8cdb8b -10px 0 0 0;
   }
   50% {
-    -moz-box-shadow: inset #353c39 0 30px 0 0, inset #353c39 0 -10px 0 0, inset #353c39 3px 0 0 0, inset #8cdb8b -10px 0 0 0;
-    -webkit-box-shadow: inset #353c39 0 30px 0 0, inset #353c39 0 -10px 0 0, inset #353c39 3px 0 0 0, inset #8cdb8b -10px 0 0 0;
-    box-shadow: inset #353c39 0 30px 0 0, inset #353c39 0 -10px 0 0, inset #353c39 3px 0 0 0, inset #8cdb8b -10px 0 0 0;
+    -moz-box-shadow:
+      inset #353c39 0 30px 0 0,
+      inset #353c39 0 -10px 0 0,
+      inset #353c39 3px 0 0 0,
+      inset #8cdb8b -10px 0 0 0;
+    -webkit-box-shadow:
+      inset #353c39 0 30px 0 0,
+      inset #353c39 0 -10px 0 0,
+      inset #353c39 3px 0 0 0,
+      inset #8cdb8b -10px 0 0 0;
+    box-shadow:
+      inset #353c39 0 30px 0 0,
+      inset #353c39 0 -10px 0 0,
+      inset #353c39 3px 0 0 0,
+      inset #8cdb8b -10px 0 0 0;
   }
   62.5% {
-    -moz-box-shadow: inset #353c39 0 40px 0 0, inset #353c39 0 0 0 0, inset #353c39 3px 0 0 0, inset #8cdb8b -10px 0 0 0;
-    -webkit-box-shadow: inset #353c39 0 40px 0 0, inset #353c39 0 0 0 0, inset #353c39 3px 0 0 0, inset #8cdb8b -10px 0 0 0;
-    box-shadow: inset #353c39 0 40px 0 0, inset #353c39 0 0 0 0, inset #353c39 3px 0 0 0, inset #8cdb8b -10px 0 0 0;
+    -moz-box-shadow:
+      inset #353c39 0 40px 0 0,
+      inset #353c39 0 0 0 0,
+      inset #353c39 3px 0 0 0,
+      inset #8cdb8b -10px 0 0 0;
+    -webkit-box-shadow:
+      inset #353c39 0 40px 0 0,
+      inset #353c39 0 0 0 0,
+      inset #353c39 3px 0 0 0,
+      inset #8cdb8b -10px 0 0 0;
+    box-shadow:
+      inset #353c39 0 40px 0 0,
+      inset #353c39 0 0 0 0,
+      inset #353c39 3px 0 0 0,
+      inset #8cdb8b -10px 0 0 0;
   }
   75% {
-    -moz-box-shadow: inset #353c39 0 20px 0 0, inset #353c39 0 -20px 0 0, inset #353c39 3px 0 0 0, inset #8cdb8b -10px 0 0 0;
-    -webkit-box-shadow: inset #353c39 0 20px 0 0, inset #353c39 0 -20px 0 0, inset #353c39 3px 0 0 0, inset #8cdb8b -10px 0 0 0;
-    box-shadow: inset #353c39 0 20px 0 0, inset #353c39 0 -20px 0 0, inset #353c39 3px 0 0 0, inset #8cdb8b -10px 0 0 0;
+    -moz-box-shadow:
+      inset #353c39 0 20px 0 0,
+      inset #353c39 0 -20px 0 0,
+      inset #353c39 3px 0 0 0,
+      inset #8cdb8b -10px 0 0 0;
+    -webkit-box-shadow:
+      inset #353c39 0 20px 0 0,
+      inset #353c39 0 -20px 0 0,
+      inset #353c39 3px 0 0 0,
+      inset #8cdb8b -10px 0 0 0;
+    box-shadow:
+      inset #353c39 0 20px 0 0,
+      inset #353c39 0 -20px 0 0,
+      inset #353c39 3px 0 0 0,
+      inset #8cdb8b -10px 0 0 0;
   }
   100% {
-    -moz-box-shadow: inset #353c39 0 0 0 0, inset #353c39 0 -40px 0 0, inset #353c39 3px 0 0 0, inset #8cdb8b -10px 0 0 0;
-    -webkit-box-shadow: inset #353c39 0 0 0 0, inset #353c39 0 -40px 0 0, inset #353c39 3px 0 0 0, inset #8cdb8b -10px 0 0 0;
-    box-shadow: inset #353c39 0 0 0 0, inset #353c39 0 -40px 0 0, inset #353c39 3px 0 0 0, inset #8cdb8b -10px 0 0 0;
+    -moz-box-shadow:
+      inset #353c39 0 0 0 0,
+      inset #353c39 0 -40px 0 0,
+      inset #353c39 3px 0 0 0,
+      inset #8cdb8b -10px 0 0 0;
+    -webkit-box-shadow:
+      inset #353c39 0 0 0 0,
+      inset #353c39 0 -40px 0 0,
+      inset #353c39 3px 0 0 0,
+      inset #8cdb8b -10px 0 0 0;
+    box-shadow:
+      inset #353c39 0 0 0 0,
+      inset #353c39 0 -40px 0 0,
+      inset #353c39 3px 0 0 0,
+      inset #8cdb8b -10px 0 0 0;
   }
 }
 /* :not(:required) hides this rule from IE9 and below */
@@ -234,9 +542,21 @@
   display: inline-block;
   overflow: hidden;
   text-indent: 100%;
-  -moz-box-shadow: inset #353c39 0 0 0 0, inset #353c39 0 -40px 0 0, inset #353c39 -3px 0 0 0, inset #8cdb8b -10px 0 0 0;
-  -webkit-box-shadow: inset #353c39 0 0 0 0, inset #353c39 0 -40px 0 0, inset #353c39 -3px 0 0 0, inset #8cdb8b -10px 0 0 0;
-  box-shadow: inset #353c39 0 0 0 0, inset #353c39 0 -40px 0 0, inset #353c39 -3px 0 0 0, inset #8cdb8b -10px 0 0 0;
+  -moz-box-shadow:
+    inset #353c39 0 0 0 0,
+    inset #353c39 0 -40px 0 0,
+    inset #353c39 -3px 0 0 0,
+    inset #8cdb8b -10px 0 0 0;
+  -webkit-box-shadow:
+    inset #353c39 0 0 0 0,
+    inset #353c39 0 -40px 0 0,
+    inset #353c39 -3px 0 0 0,
+    inset #8cdb8b -10px 0 0 0;
+  box-shadow:
+    inset #353c39 0 0 0 0,
+    inset #353c39 0 -40px 0 0,
+    inset #353c39 -3px 0 0 0,
+    inset #8cdb8b -10px 0 0 0;
   -moz-animation: pong-loader-paddle-1 1500ms infinite linear;
   -webkit-animation: pong-loader-paddle-1 1500ms infinite linear;
   animation: pong-loader-paddle-1 1500ms infinite linear;
@@ -249,15 +569,27 @@
   top: 0;
   left: 0;
   display: block;
-  content: "";
+  content: '';
   width: 10px;
   height: 100%;
-  -moz-box-shadow: inset #353c39 0 0 0 0, inset #353c39 0 -40px 0 0, inset #353c39 -3px 0 0 0, inset #8cdb8b -10px 0 0 0;
-  -webkit-box-shadow: inset #353c39 0 0 0 0, inset #353c39 0 -40px 0 0, inset #353c39 -3px 0 0 0, inset #8cdb8b -10px 0 0 0;
-  box-shadow: inset #353c39 0 0 0 0, inset #353c39 0 -40px 0 0, inset #353c39 -3px 0 0 0, inset #8cdb8b -10px 0 0 0;
+  -moz-box-shadow:
+    inset #353c39 0 0 0 0,
+    inset #353c39 0 -40px 0 0,
+    inset #353c39 -3px 0 0 0,
+    inset #8cdb8b -10px 0 0 0;
+  -webkit-box-shadow:
+    inset #353c39 0 0 0 0,
+    inset #353c39 0 -40px 0 0,
+    inset #353c39 -3px 0 0 0,
+    inset #8cdb8b -10px 0 0 0;
+  box-shadow:
+    inset #353c39 0 0 0 0,
+    inset #353c39 0 -40px 0 0,
+    inset #353c39 -3px 0 0 0,
+    inset #8cdb8b -10px 0 0 0;
 }
 .pong-loader:not(:required):after {
-  content: "";
+  content: '';
   display: block;
   -moz-animation: pong-loader 1500ms infinite linear;
   -webkit-animation: pong-loader 1500ms infinite linear;

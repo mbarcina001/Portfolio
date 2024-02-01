@@ -7,13 +7,10 @@ import { CommonModule } from '@angular/common';
   templateUrl: './project-modal-link.component.html',
   styleUrls: ['./project-modal-link.component.scss'],
   standalone: true,
-  imports: [
-    CommonModule
-  ]
+  imports: [CommonModule],
 })
 export class ProjectModalLinkComponent {
   @Input() project!: Project;
 
-  constructor() { }
-
+  constructor() {}
 }

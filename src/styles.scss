@@ -1,17 +1,17 @@
 @font-face {
-  font-family: "Coolvetica";
-  src: url("/assets/webfonts/coolvetica.ttf") format("truetype");
+  font-family: 'Coolvetica';
+  src: url('/assets/webfonts/coolvetica.ttf') format('truetype');
 }
 
-body{
-	margin: 0 !important;
-  padding:0 !important;
+body {
+  margin: 0 !important;
+  padding: 0 !important;
   overflow: auto !important;
   background: white !important;
 }
 
 .mat-dialog-container {
-	padding: 0 !important;
+  padding: 0 !important;
 }
 
 .cdk-global-overlay-wrapper {
@@ -19,7 +19,7 @@ body{
   position: absolute;
   z-index: 1000;
   overflow: auto;
-  pointer-events: auto;  
+  pointer-events: auto;
 }
 
 /* Small devices */

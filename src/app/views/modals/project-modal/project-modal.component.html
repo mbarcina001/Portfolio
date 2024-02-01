@@ -1,59 +1,48 @@
 <div class="modal-grid">
-	<div
-		class="close"
-		(click)="hideModal()"
-	>
-		<span>&times;</span>
-	</div>
-	
-	<div class="modalImg" *ngIf="data.project">
-		<div class="arrow-container">
-			<div
-				class="arrow leftArrow"
-				(click)="arrowClick('leftArrow');"
-			> 
-				<i class="fas fa-angle-left"></i>
-			</div>
-		</div>
-		<div class="img-container">
-			<img
-				[src]="data.project.imgs[projectIndex]"
-				[alt]="data.project.name"
-			>
-			
-			<div class="pagination-wrapper">
-				<div class="pagination-container">
-					<div class="little-dot  little-dot--first"></div>
-					<div class="little-dot">
-						<div class="big-dot-container">
-						<div class="big-dot"></div>
-						</div>
-					</div>
-					<div class="little-dot  little-dot--last"></div>
-				</div>
-			</div>
-		</div>
-		<div class="arrow-container">
-			<div
-				class="arrow rightArrow"
-				(click)="arrowClick('rightArrow');"
-			>
-				<i class="fas fa-angle-right"></i> 
-			</div>
-		</div>	
-	</div>
-	
-	<div class="modalCaption" *ngIf="data.project">
-		<p class="textCaption">{{data.project.description}}</p>
-		<div class="textCaption" *ngIf="data.project.features.length>0">
-			Características:<br>
-			<ul>
-				<li *ngFor="let feature of data.project.features">
-					{{feature}}
-				</li>
-			</ul>
-		</div>
-		
-		<app-project-modal-link [project]="data.project"></app-project-modal-link>
-	</div>
+  <div class="close" (click)="hideModal()">
+    <span>&times;</span>
+  </div>
+
+  <div class="modalImg" *ngIf="data.project">
+    <div class="arrow-container">
+      <div class="arrow leftArrow" (click)="arrowClick('leftArrow')">
+        <i class="fas fa-angle-left"></i>
+      </div>
+    </div>
+    <div class="img-container">
+      <img [src]="data.project.imgs[projectIndex]" [alt]="data.project.name" />
+
+      <div class="pagination-wrapper">
+        <div class="pagination-container">
+          <div class="little-dot little-dot--first"></div>
+          <div class="little-dot">
+            <div class="big-dot-container">
+              <div class="big-dot"></div>
+            </div>
+          </div>
+          <div class="little-dot little-dot--last"></div>
+        </div>
+      </div>
+    </div>
+    <div class="arrow-container">
+      <div class="arrow rightArrow" (click)="arrowClick('rightArrow')">
+        <i class="fas fa-angle-right"></i>
+      </div>
+    </div>
+  </div>
+
+  <div class="modalCaption" *ngIf="data.project">
+    <p class="textCaption">{{ data.project.description }}</p>
+    <div class="textCaption" *ngIf="data.project.features.length > 0">
+      Características:
+      <br />
+      <ul>
+        <li *ngFor="let feature of data.project.features">
+          {{ feature }}
+        </li>
+      </ul>
+    </div>
+
+    <app-project-modal-link [project]="data.project"></app-project-modal-link>
+  </div>
 </div>

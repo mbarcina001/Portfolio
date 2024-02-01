@@ -66,4 +66,5 @@ Backtrace:
 body:before {
   white-space: pre;
   font-family: monospace;
-  content: "Syntax error: Undefined mixin 'keyframes'.\A         on line 11 of /Users/jlong/Workspaces/spinners/sass/spinner/plus-loader.scss, in `keyframes'\A         from line 11 of /Users/jlong/Workspaces/spinners/sass/spinner/plus-loader.scss"; }
+  content: "Syntax error: Undefined mixin 'keyframes'.\A         on line 11 of /Users/jlong/Workspaces/spinners/sass/spinner/plus-loader.scss, in `keyframes'\A         from line 11 of /Users/jlong/Workspaces/spinners/sass/spinner/plus-loader.scss";
+}

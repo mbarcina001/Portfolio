@@ -1,15 +1,13 @@
 import { Component, Input } from '@angular/core';
 
 @Component({
-	selector: 'app-trapezoid',
-	templateUrl: './non-trapezoid.html',
-	styleUrls: ['./non-trapezoid.scss'],
-	standalone: true
+  selector: 'app-trapezoid',
+  templateUrl: './non-trapezoid.html',
+  styleUrls: ['./non-trapezoid.scss'],
+  standalone: true,
 })
-export class TrapezoidComponent  {
+export class TrapezoidComponent {
+  @Input() sectionName: string = '';
 
-	@Input() sectionName: string = '';
-
-	constructor() { }
-
+  constructor() {}
 }

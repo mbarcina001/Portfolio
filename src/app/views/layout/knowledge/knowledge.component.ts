@@ -5,22 +5,15 @@ import * as appConstants from '../../../app.constants';
 import { TrapezoidComponent } from '../../components/trapezoid/trapezoid.component';
 
 @Component({
-	selector: 'app-knowledge',
-	templateUrl: './knowledge.component.html',
-	styleUrls: ['./knowledge.component.scss'],
-	standalone: true,
-	imports: [
-		CommonModule,
-		TrapezoidComponent
-	]
+  selector: 'app-knowledge',
+  templateUrl: './knowledge.component.html',
+  styleUrls: ['./knowledge.component.scss'],
+  standalone: true,
+  imports: [CommonModule, TrapezoidComponent],
 })
-
 export class KnowledgeComponent {
+  sectionName = 'Aptitudes';
+  knowledgeList: Knowledge[] = appConstants.knowledgeList;
 
-	sectionName = 'Aptitudes';
-	knowledgeList: Knowledge[] = appConstants.knowledgeList;
-
-
-	constructor() { }
-
+  constructor() {}
 }

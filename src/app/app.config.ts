@@ -8,7 +8,6 @@ import { routes } from './app.routes';
 import { FormlyModule } from '@ngx-formly/core';
 import { FormlyFieldInput } from '@ngx-formly/bootstrap/input';
 
-
 export const appConfig: ApplicationConfig = {
   providers: [
     provideRouter(routes),
@@ -17,10 +16,8 @@ export const appConfig: ApplicationConfig = {
     importProvidersFrom([
       FormlyModule.forRoot({
         types: [{ name: 'input', component: FormlyFieldInput }],
-        validationMessages: [
-          { name: 'required', message: 'Este campo es obligatorio' }
-        ]
+        validationMessages: [{ name: 'required', message: 'Este campo es obligatorio' }],
       }),
-    ])
-  ]
+    ]),
+  ],
 };

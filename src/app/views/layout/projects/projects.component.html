@@ -1,22 +1,23 @@
 <section (window:resize)="onResize($event)" class="projects">
-	<app-trapezoid [sectionName]="projectSectionName"></app-trapezoid>
+  <app-trapezoid [sectionName]="projectSectionName"></app-trapezoid>
 
-	<article class="projectsContent">
-		<ng-container *ngFor="let project of projectList.slice().reverse().slice(0, maxShown)">
-			<div class="gallery" (click)="onSelect(project);">
-				<div class="img-container">
-					<img class="gallery-img" [src]="project.coverImg" alt={{project.name}}>
-					<div class="overlay">
-						<div class="text">{{project.name}}</div>
-					</div>
-				</div>
-			</div>
-		</ng-container>
-	</article>
+  <article class="projectsContent">
+    <ng-container *ngFor="let project of projectList.slice().reverse().slice(0, maxShown)">
+      <div class="gallery" (click)="onSelect(project)">
+        <div class="img-container">
+          <img class="gallery-img" [src]="project.coverImg" alt="{{ project.name }}" />
+          <div class="overlay">
+            <div class="text">{{ project.name }}</div>
+          </div>
+        </div>
+      </div>
+    </ng-container>
+  </article>
 
-	<div class="text-center mt-5">
-		<a class="showMore" href="javascript:void(0)" *ngIf="projectList.length > maxShown" (click)="showMore()">
-			Mostrar más <i class="fa fa-plus" aria-hidden="true"></i>
-		</a>
-	</div>
+  <div class="text-center mt-5">
+    <a class="showMore" href="javascript:void(0)" *ngIf="projectList.length > maxShown" (click)="showMore()">
+      Mostrar más
+      <i class="fa fa-plus" aria-hidden="true"></i>
+    </a>
+  </div>
 </section>

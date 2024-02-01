@@ -94,9 +94,10 @@
   -webkit-transform-origin: 50% 50%;
   transform-origin: 50% 50%;
 }
-.heartbeat-loader:not(:required):after, .heartbeat-loader:not(:required):before {
+.heartbeat-loader:not(:required):after,
+.heartbeat-loader:not(:required):before {
   position: absolute;
-  content: "";
+  content: '';
   background: #e87;
 }
 .heartbeat-loader:not(:required):before {

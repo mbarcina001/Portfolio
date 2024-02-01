@@ -8,9 +8,8 @@ describe('ErrorCampoComponent', () => {
 
   beforeEach(waitForAsync(() => {
     TestBed.configureTestingModule({
-      declarations: [ ErrorCampoComponent ]
-    })
-    .compileComponents();
+      declarations: [ErrorCampoComponent],
+    }).compileComponents();
   }));
 
   beforeEach(() => {

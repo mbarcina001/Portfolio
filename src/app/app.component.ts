@@ -18,13 +18,13 @@ import { ContactComponent } from './views/layout/contact/contact.component';
     KnowledgeComponent,
     ProjectsComponent,
     ContactComponent,
-    FooterComponent
+    FooterComponent,
   ],
   templateUrl: './app.component.html',
-  styleUrl: './app.component.scss'
+  styleUrl: './app.component.scss',
 })
 export class AppComponent {
   title = 'Portfolio';
 
-	public EXPOSE_APP_CONSTANTS = appConstants;
+  public EXPOSE_APP_CONSTANTS = appConstants;
 }

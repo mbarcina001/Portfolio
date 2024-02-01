@@ -1,5 +1,5 @@
 export interface Knowledge {
-	icon: string;
-	description: string;
-	type: string;
+  icon: string;
+  description: string;
+  type: string;
 }
