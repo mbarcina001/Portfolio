@@ -296,11 +296,11 @@ export const projectList: Project[] = [
     description: `Por definir.`,
     imgs: [
       './assets/images/proyectos/zona-zurich/1.png',
-      './assets/images/proyectos/zona-zurich/2.png',
-      './assets/images/proyectos/zona-zurich/3.png',
-      './assets/images/proyectos/zona-zurich/4.png',
-      './assets/images/proyectos/zona-zurich/5.png',
-      './assets/images/proyectos/zona-zurich/6.png',
+      './assets/images/proyectos/zona-zurich/2.PNG',
+      './assets/images/proyectos/zona-zurich/3.PNG',
+      './assets/images/proyectos/zona-zurich/4.PNG',
+      './assets/images/proyectos/zona-zurich/5.PNG',
+      './assets/images/proyectos/zona-zurich/6.PNG',
     ],
     coverImg: './assets/images/proyectos/zona-zurich/cover.png',
     features: [
