@@ -269,7 +269,15 @@ export const projectList: Project[] = [
   {
     id: 'p8',
     name: 'AbaQus / Aquila',
-    description: `Por definir.`,
+    description: `AbaQus se emplea para
+    la gestion y el análisis de experimentos con herbicidas, insecticidas y fungicidas 
+    en cultivos. Para ello cuenta con diferentes analíticas sobre el rendimiento de los 
+    ensayos realizados, así como herramientas para comparar y exportar los datos de 
+    estos ensayos. Por su parte, Aquila es una aplicacion que muestra un análisis 
+    detallado de los algoritmos de Machine Learning que estan disponibles en el 
+    backend para clasificar el rendimiento de los ensayos en cultivos. En Aquila
+    se muestran diversas metricas y gráficas que permiten de un vistazo observar la 
+    eficacia de estos algoritmos`,
     imgs: [
       './assets/images/proyectos/abaqus/1.png',
       './assets/images/proyectos/abaqus/2.png',
@@ -293,14 +301,16 @@ export const projectList: Project[] = [
   {
     id: 'p9',
     name: 'Nueva ZonaZurich',
-    description: `Por definir.`,
+    description: `Portal disenado para que mediadores de Zurich y otros corredores de seguros puedan
+    realizar la contratación de los distintos seguros que se encuentran dentro de la
+    gama de productos de Zurich`,
     imgs: [
       './assets/images/proyectos/zona-zurich/1.png',
       './assets/images/proyectos/zona-zurich/2.PNG',
       './assets/images/proyectos/zona-zurich/3.PNG',
       './assets/images/proyectos/zona-zurich/4.PNG',
       './assets/images/proyectos/zona-zurich/5.PNG',
-      './assets/images/proyectos/zona-zurich/6.PNG',
+      // './assets/images/proyectos/zona-zurich/6.PNG',
     ],
     coverImg: './assets/images/proyectos/zona-zurich/cover.png',
     features: [
