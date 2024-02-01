@@ -2,8 +2,8 @@ import { CommonModule } from '@angular/common';
 import { Component } from '@angular/core';
 import { TrapezoidComponent } from '../../components/trapezoid/trapezoid.component';
 import { FormsModule, NgForm } from '@angular/forms';
-import { HttpClient, HttpClientModule } from '@angular/common/http';
-import { ToastrService } from 'ngx-toastr';
+import { HttpClient, HttpClientModule, HttpHeaders } from '@angular/common/http';
+import { GlobalConfig, ToastrService } from 'ngx-toastr';
 import { ErrorCampoComponent } from '../../components/errorcampo/error-campo.component';
 
 @Component({
@@ -33,25 +33,47 @@ export class ContactComponent {
     }
 
     if (myForm.valid) {
-      const formData: FormData = new FormData();
-      formData.append('name', this.nameText);
-      formData.append('email', this.mailText);
-      formData.append('message', this.messageText);
+      this.sendForm(myForm);
+    }
+  }
 
-      const options = this.toastr.toastrConfig;
-      options.timeOut = 0;
-      options.positionClass = 'toast-bottom-right';
+  sendForm(myForm: NgForm) {
+    const url = "https://formspree.io/f/xjvnykll";
 
-      this.http.post('https://jumprock.co/mail/mbarcina001', formData).subscribe(
-        () => {
-          this.toastr.show('Click para cerrar', 'Enviado correctamente', options, 'toast-success');
+    //Set Headers
+    const httpOptions = {
+      headers: new HttpHeaders({
+        Accept: "application/json",
+        "Content-Type": "application/x-www-form-urlencoded"
+      })
+    };
+
+    const data = `name=${this.nameText}&email=${this.mailText}&message=${this.messageText}`;
+
+    this.http.post(url, data, httpOptions).subscribe({
+        next: () => {
+          this.toastr.show(
+            'Click para cerrar', 'Enviado correctamente',
+            this.getToastrOptions(),
+            'toast-success'
+          );
           this.resetForm(myForm);
         },
-        () => {
-          this.toastr.show('Click para cerrar', 'Ha ocurrido un error', options, 'toast-error');
+        error: error => {
+          this.toastr.show(
+            'Click para cerrar', 'Ha ocurrido un error: ' + error.message,
+            this.getToastrOptions(),
+            'toast-error'
+          );
         }
-      );
-    }
+    })
+  }
+
+  getToastrOptions(): GlobalConfig {
+    const options = this.toastr.toastrConfig;
+    options.timeOut = 0;
+    options.positionClass = 'toast-bottom-right';
+    return options;
   }
 
   private resetForm(myForm: NgForm) {
