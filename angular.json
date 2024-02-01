@@ -36,6 +36,7 @@
           },
           "configurations": {
             "production": {
+              "baseHref": "/Portfolio/",
               "budgets": [
                 {
                   "type": "initial",
@@ -54,9 +55,6 @@
               "optimization": false,
               "extractLicenses": false,
               "sourceMap": true
-            },
-            "github-pages": {
-              "baseHref": "/Portfolio/"
             }
           },
           "defaultConfiguration": "production"
