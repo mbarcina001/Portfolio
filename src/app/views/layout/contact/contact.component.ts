@@ -1,15 +1,15 @@
 import { CommonModule } from '@angular/common';
-import { Component } from '@angular/core';
+import { Component, Inject } from '@angular/core';
 import { TrapezoidComponent } from '../../components/trapezoid/trapezoid.component';
 import { FormsModule, NgForm } from '@angular/forms';
-import { HttpClient, HttpClientModule, HttpHeaders } from '@angular/common/http';
+import { HttpClient, HttpHeaders } from '@angular/common/http';
 import { GlobalConfig, ToastrService } from 'ngx-toastr';
 import { ErrorCampoComponent } from '../../components/errorcampo/error-campo.component';
 
 @Component({
   selector: 'app-contact',
   standalone: true,
-  imports: [CommonModule, TrapezoidComponent, FormsModule, ErrorCampoComponent, HttpClientModule],
+  imports: [CommonModule, TrapezoidComponent, FormsModule, ErrorCampoComponent],
   templateUrl: './contact.component.html',
   styleUrl: './contact.component.scss',
 })
@@ -22,6 +22,7 @@ export class ContactComponent {
 
   constructor(
     private http: HttpClient,
+    @Inject(String)
     private toastr: ToastrService
   ) {}
 
