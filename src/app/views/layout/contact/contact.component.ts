@@ -1,5 +1,5 @@
 import { CommonModule } from '@angular/common';
-import { Component, Inject } from '@angular/core';
+import { Component } from '@angular/core';
 import { TrapezoidComponent } from '../../components/trapezoid/trapezoid.component';
 import { FormsModule, NgForm } from '@angular/forms';
 import { HttpClient, HttpHeaders } from '@angular/common/http';
@@ -22,7 +22,6 @@ export class ContactComponent {
 
   constructor(
     private http: HttpClient,
-    @Inject(String)
     private toastr: ToastrService
   ) {}
 
